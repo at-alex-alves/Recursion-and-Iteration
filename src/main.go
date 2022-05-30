@@ -1,9 +1,9 @@
 package main
 
 import (
-	"main/src/recursion"
+	"github.com/at-alex-alves/Recursion-and-Iteration/src/recursion"
 )
 
 func main() {
-	recursion.EvaluatePerformace(35)
+	recursion.EvaluatePerformance(35)
 }

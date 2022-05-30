@@ -1,15 +1,6 @@
 package recursion
 
-/*
-	Calculates the fibonacci of the passed number using recursion.
-
-	Args:
-		number (int): The number that will have the fibonacci calculated.
-
-	Returns:
-		int: The calling of the same funtion using the passed number minus one, plus 
-			the calling of the same funtion using the passed number minus two
-*/
+// Calculates the fibonacci of the passed number using recursion.
 func recursiveFibonacci(number int) int {
 	if number < 2 {
 		return number
@@ -18,15 +9,7 @@ func recursiveFibonacci(number int) int {
 	}
 }
 
-/*
-	Calculates the fibonacci of the passed number using recursion.
-
-	Args:
-		number (int): The number that will have the fibonacci calculated.
-
-	Returns:
-		int: The fibonacci of the passed number.
-*/
+// Calculates the fibonacci of the passed number using recursion.
 func iterativeFibonacci(number int) int {
 	a, b := 0, 1
 
